@@ -1,0 +1,14 @@
+.Post {    
+    border: 1px solid #eee;
+    float: left;
+    width: 250px;
+    padding: 16px;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Post:hover, .Post.active {
+    background-color: #C0DDF5;
+}
